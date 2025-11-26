@@ -1,0 +1,14 @@
+services:
+  front-end:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile    
+    # Port mapping using default vite ports.
+    ports:
+      - "5173:5173"
+      # Will fix hot-reloading sometime, does not work at the moment.
+    # Volumes for Hot Reloading, :Z is for Efe using Fedora with SELinux
+   # volumes:
+    #  - .:/app:Z
+      # Anony volume for node_modules
+     # - /app/node_modules
