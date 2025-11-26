@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Build Output
+dist
+dist-ssr
+coverage
+
+# System & Logs
+.DS_Store
+*.log
+npm-debug.log*
+
+# IDEs
+.idea
+.vscode
+
+# Secrets
+.env
+.env.local
+*.env.local
+
+# Docker Local Overrides
+docker-compose.override.yml
+compose.override.yaml
